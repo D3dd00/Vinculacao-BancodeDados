@@ -37,6 +37,7 @@ dependencies {
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.core.ktx)
+    implementation("com.google.firebase:firebase-auth")
     implementation(libs.firebase.database)
     implementation(libs.material)
     implementation(platform("com.google.firebase:firebase-bom:33.12.0"))
